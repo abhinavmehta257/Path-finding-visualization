@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shorting</title>
+ 
+	<link rel="stylesheet" type="text/css" href="index.css">
+    	    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">A* Path finding</a>
+  <span class="Instruction" style="color: white;">Instruction- 1: select the destination. 2:select the amount of obsticals. 3:click start</span>
+</nav>
+    
+    
+    
+    
+<!--navnar ended-->    
+<canvas id="myCanvas" height="600" width="1540  "></canvas>
+<div id="bottom" class="m-0">
+    <span style="margin-left: 30px">Select the amount of obsticals</span>  
+    <input align="center" type="range" name="range" value="0" min="100" max="2000" step="10" class="volume_slider"><br>
+
+    <button type="button" id="startbtn" style="margin-left: 700px" class="btn btn-success pl-3 pt-0 pb-0 pr-3 mb-3">Start</button>
+    <button type="button" id="refreshbtn" class="btn btn-primary pl-3 pt-0 pb-0 pr-3 mb-3">Refresh</button>
+    
+</div>
+    <div>
+        
+  
+    <script src="pathfinding.js"></script>
+    
+    </div>
+</body>
+</html>
